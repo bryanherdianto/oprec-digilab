@@ -119,7 +119,7 @@ export default function SignupForm() {
 	};
 
 	return (
-		<div className="overflow-auto flex flex-col justify-start shadow-input mx-auto w-full max-w-md rounded-none bg-white p-4 md:rounded-2xl md:p-8 dark:bg-black relative">
+		<div className="overflow-auto flex flex-col justify-start shadow-input mx-auto w-full max-w-md rounded-none p-4 md:p-8 relative">
 			<div className="fixed z-50 top-4 right-4 left-4 sm:left-auto space-y-2">
 				<AnimatePresence>
 					{message && (
